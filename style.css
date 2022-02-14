@@ -3213,7 +3213,7 @@ user-select:none;
   display: -ms-flexbox;
   display: flex;
   width: 100vw;
-  padding-top: 140px;
+  padding-top: 10px;
   padding-bottom: 140px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -4124,6 +4124,19 @@ user-select:none;
 }
 
 .link-13:hover {
+  text-shadow: 0 0 11px rgb(0,255,255);
+}
+
+.link-100 {
+  opacity: 1;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+  color: rgb(0,255,255);
+  text-shadow: none;
+  text-decoration: none;
+}
+
+.link-100:hover {
   text-shadow: 0 0 11px rgb(0,255,255);
 }
 
